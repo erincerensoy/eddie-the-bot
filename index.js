@@ -5,8 +5,8 @@ let Slack = require('@slack/client');
 let RtmClient = Slack.RtmClient;  
 let RTM_EVENTS = Slack.RTM_EVENTS;
 
-let token = process.env.API_TOKEN;
-const iotUri = "  https://f3cridjv5g.execute-api.us-west-2.amazonaws.com/sendData";
+const token = process.env.API_TOKEN;
+const iotUri = process.env.IOT_URI;
 
 const INPUT_TYPES_COMMAND = 'COMMAND';
 const INPUT_TYPES_DEVICEID = 'DEVICEID';
