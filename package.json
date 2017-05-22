@@ -1,0 +1,19 @@
+{
+  "name": "eddie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.9.0",
+    "fetch": "^1.1.0",
+    "node-fetch": "^1.6.3",
+    "request": "^2.81.0",
+    "nodemon":"*"
+  }
+}
