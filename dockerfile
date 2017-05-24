@@ -10,7 +10,7 @@ RUN npm i
 
 # Bundle app source
 COPY . /usr/src/app
-ENV API_TOKEN "xoxb-179755331814-pDoLezaAkBnmK1q60eg1HlpK"
+ENV API_TOKEN "xoxb-179755331814-0a9GD4LNgc7VG0McoFLYaRO3"
 ENV IOT_URI "https://f0cxgexai6.execute-api.us-west-2.amazonaws.com/prod"
 
 CMD [ "npm", "start" ]
